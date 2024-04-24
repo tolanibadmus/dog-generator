@@ -1,0 +1,42 @@
+body {
+  font-family: monospace;
+}
+
+.arrow-button {
+  width: 40px;
+  cursor: pointer;
+}
+
+.dog {
+  width: 500px;
+  height: 400px;
+  margin: 0px 16px;
+  object-position: center;
+  border-radius: 30px;
+}
+
+.dog-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(235, 224, 250);
+  padding: 50px;
+  width: 700px;
+}
+
+.dogbutton-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.primary-button {
+  padding: 16px 28px;
+  margin-top: 28px;
+  border: none;
+  background-color:rgb(35, 5, 78);
+  color: white;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
