@@ -2,16 +2,18 @@
 <html>
   <head>
     <title>Beautiful Dogs</title>
+    <script src="https://kit.fontawesome.com/c423f4c0e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
   </head>
   
   <body>
     <h1>Dog Generator</h1>
-    <div class="dogbutton-div">
+    <div class="dogandbutton-div">
       <div class="dog-div">
-        <img src="images/arrow-back.png" class="arrow-button" onclick="generateRandomDog()">
+
+        <i class="fa fa-angle-left fa-3x arrow-button" onclick="generateRandomDog()"></i>
         <img src="images/dog.jpg" class="dog random-dogs" id="dog-img">
-        <img src="images/arrow-forward.png" class="arrow-button" onclick="generateRandomDog()">
+        <i class="fa fa-angle-right fa-3x arrow-button" onclick="generateRandomDog()"></i>
       </div>
   
       <button class="primary-button" onclick="generateRandomDog()">Generate Image</button>

@@ -1,9 +1,16 @@
 body {
   font-family: monospace;
+  padding: 80px;
 }
 
+h1 {
+  font-size: 56px;
+  font-weight: 800;
+  text-align: center;
+}
 .arrow-button {
-  width: 40px;
+  width: 24px;
+  color: rgb(35, 5, 78);
   cursor: pointer;
 }
 
@@ -12,19 +19,21 @@ body {
   height: 400px;
   margin: 0px 16px;
   object-position: center;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .dog-div {
   display: flex;
   align-items: center;
+  margin: 40px 0px;
   justify-content: space-evenly;
   background-color: rgb(235, 224, 250);
-  padding: 50px;
+  border-radius: 40px;
+  padding: 80px;
   width: 700px;
 }
 
-.dogbutton-div {
+.dogandbutton-div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +41,6 @@ body {
 
 .primary-button {
   padding: 16px 28px;
-  margin-top: 28px;
   border: none;
   background-color:rgb(35, 5, 78);
   color: white;
